@@ -43,7 +43,7 @@ button {
 section {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    height: auto;
+    height: 750px;
 }
 
 section > div {
@@ -60,7 +60,7 @@ section > div {
     transform: translate(0, -50%);
 }
 
-header > button > a:checked ~ section > div {
+button > a:checked section > div {
     display: block;
 }
 
@@ -121,8 +121,3 @@ footer > nav > a {
 }
 
 
-
-/* footer {
-    position: fixed bottom;
-    border-top: 3px solid black;
-} */
